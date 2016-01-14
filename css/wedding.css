@@ -1,0 +1,21 @@
+.back {
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+}
+
+.ukraine .title span {
+  color: #6dd1cf;
+}
+
+.australia .title span {
+  color: #f3885a;
+}
+
+.title {
+  padding-top: 30px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoid2VkZGluZy5jc3MiLCJzb3VyY2VzIjpbIndlZGRpbmcuc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyIuYmFjayB7XHJcbiAgZGlzcGxheTogYmxvY2s7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIHBhZGRpbmctdG9wOiA1MHB4O1xyXG4gIGZvbnQtZmFtaWx5OiAnQXJpYWwnLCBzYW5zLXNlcmlmO1xyXG4gIGZvbnQtc2l6ZTogMnJlbTtcclxuXHJcbn1cclxuXHJcbi51a3JhaW5lIHtcclxuICAudGl0bGUgc3BhbiB7XHJcbiAgICBjb2xvcjogIzZkZDFjZjtcclxuICB9XHJcbn1cclxuXHJcbi5hdXN0cmFsaWEge1xyXG4gIC50aXRsZSBzcGFuIHtcclxuICAgIGNvbG9yOiAjZjM4ODVhO1xyXG4gIH1cclxufVxyXG5cclxuLnRpdGxlIHtcclxuICBwYWRkaW5nLXRvcDogMzBweDtcclxufSJdLCJtYXBwaW5ncyI6IkFBQUEsS0FBSyxDQUFDO0VBQ0osT0FBTyxFQUFFLEtBQU07RUFDZixVQUFVLEVBQUUsTUFBTztFQUNuQixXQUFXLEVBQUUsSUFBSztFQUNsQixXQUFXLEVBQUUsbUJBQW9CO0VBQ2pDLFNBQVMsRUFBRSxJQUFLO0NBRWpCOztBQUVELFFBQVEsQ0FDTixNQUFNLENBQUMsSUFBSSxDQUFDO0VBQ1YsS0FBSyxFQUFFLE9BQVE7Q0FDaEI7O0FBR0gsVUFBVSxDQUNSLE1BQU0sQ0FBQyxJQUFJLENBQUM7RUFDVixLQUFLLEVBQUUsT0FBUTtDQUNoQjs7QUFHSCxNQUFNLENBQUM7RUFDTCxXQUFXLEVBQUUsSUFBSztDQUNuQiIsIm5hbWVzIjpbXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0= */
