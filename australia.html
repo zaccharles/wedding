@@ -6,6 +6,28 @@
 
   var nodes = document.querySelectorAll('.gallery a');
 
+  var lnodes = [];
+
   forEach(nodes, function (index, node) {
-    new Luminous(node);
-  });</script></body></html>
+    lnodes.push(new Luminous(node));
+  });
+
+  var left = 37;
+  var right = 39;
+
+  document.onkeydown = function (e) {
+    e = e || window.event;
+    if (e.keyCode != left && e.keyCode != right) return;
+
+    for(var i=0; i<lnodes.length; i++) {
+      if (lnodes[i].isOpen)
+      {
+        var next = (e.keyCode == left) ? i-1 : i+1;
+        next = next < 0 ? lnodes.length - 1 : next;
+        next = next == lnodes.length ? 0 : next;
+        lnodes[next].open();
+        lnodes[i].close();
+        break;
+      }
+    }
+  };</script></body></html>
