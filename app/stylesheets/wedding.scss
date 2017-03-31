@@ -1,0 +1,151 @@
+.back {
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+
+  a {
+    position: relative;
+  }
+
+  a:hover {
+    animation-name: home-bob;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    cursor: pointer;
+  }
+}
+
+.ukraine {
+  .title span {
+    color: #6dd1cf;
+  }
+}
+
+.australia {
+  .title span {
+    color: #f3885a;
+  }
+}
+
+.title {
+  padding-top: 30px;
+}
+
+.gallery {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.gallery .column {
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 2px;
+}
+
+.gallery .column a {
+  cursor: zoom-in;
+}
+
+.details {
+  margin: 40px auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.details .dt {
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    color: #555;
+}
+
+.details .di {
+    font-family: 'Poiret One', sans-serif;
+    font-weight: bold;
+    color: #555;
+}
+
+.update {
+  max-width: 1266px;
+  margin: 30px auto;
+  border: 1px solid #EFEFEF;
+  padding: 30px 30px 10px 30px;
+  box-sizing: border-box;
+
+  .date {
+    color: #6dd1cf;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 8px;
+  }
+
+  .text {
+    font-weight: bold;
+    font-family: 'Poiret One', sans-serif;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.5;
+
+    a {
+      color: #6dd1cf;
+      font-weight: bold;
+      text-decoration: none;
+      border-bottom: 1px dotted;
+    }
+
+    .clear {
+        font-family: arial;
+        font-weight: normal;
+        color: #898989;
+    }
+  }
+}
+
+.dresscode div {
+  width: 25%;
+  height: 200px;
+  box-sizing: border-box;
+  display: inline-block;
+  background-size: cover;
+  background-position: center center;
+}
+
+@keyframes home-bob {
+  0% { top: 0; }
+  50% { top: -3px; }
+  100% { top: 0; }
+}
+
+.b-lazy {
+  min-height: 167px;
+  width: 250px;
+}
+
+.arrow {
+  position: fixed;
+  top: 50%;
+  margin-top: -64px;
+  display: block;
+  z-index: 999;
+  cursor: pointer;
+  opacity: 0.75;
+  background: #797979;
+  border-radius: 4px;
+}
+
+.arrow-right {
+  right: 5%;
+}
+
+.arrow-left {
+  left: 5%;
+}
+
+.hide {
+  display: none;
+}

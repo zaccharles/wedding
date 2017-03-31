@@ -1,0 +1,45 @@
+html.ukr .eng {
+  display: none;
+}
+
+html.eng .ukr {
+  display: none;
+}
+
+.language-bar {
+  position: absolute;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+
+    li {
+      float: left;
+      margin-left: 10px;
+      position: relative;
+
+      span {
+        text-align: center;
+        display: block;
+        font-family: arial;
+        margin-bottom: 3px;
+        font-size: 12px;
+        color: #777;
+        text-transform: uppercase;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.selected {
+        display: none;
+      }
+    }
+
+    .en {
+      opacity: 0.5;
+    }
+  }
+}
